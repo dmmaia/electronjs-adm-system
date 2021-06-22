@@ -7,10 +7,11 @@ function createWindow () {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
-    }
+    },
   })
-
-  win.loadFile('index.html')
+  
+  win.loadFile('./views/index.html')
+  win.maximize()
 }
 
 app.whenReady().then(() => {
