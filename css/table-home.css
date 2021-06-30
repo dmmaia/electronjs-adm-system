@@ -1,0 +1,25 @@
+li.table{
+  display: block;
+  list-style: decimal;
+  display: inline-block;
+  width: 12vh;
+  height: 12vh;
+  border-radius: 5vh;
+  margin: 2vh;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/bill.png");
+  background-size: 10vh;
+  box-shadow: 2px 2px 2px rgb(177, 175, 175);
+  transition-duration: 100ms;
+}
+li.table:hover{
+  background-size: 10.5vh;
+  opacity: 1;
+  cursor: pointer;
+}
+li.table p{
+  margin-top: 12vh;
+  margin-right: auto;
+}
